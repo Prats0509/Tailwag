@@ -52,7 +52,7 @@ class DogHealthAnalysisVC: UIViewController {
     }
     
     private func callChatGPTAPI(age: Int, weight: Double, breed: String?, healthIssues: String?) {
-        let apiKey="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"
+        let apiKey="enter api key here"
         let apiURL = "https://api.openai.com/v1/chat/completions"
         
         
