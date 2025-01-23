@@ -13,23 +13,6 @@ Tailwag is an iOS application designed to streamline dog grooming services for p
 
 ---
 
-## Screenshots
-
-### Home Screen
-![Home Screen Placeholder](placeholder-image.png)
-
-### Booking Appointments
-![Booking Appointments Placeholder](placeholder-image.png)
-
-### Health Analysis
-![Health Analysis Placeholder](placeholder-image.png)
-
-### Services
-![Services Placeholder](placeholder-image.png)
-
-> Replace `placeholder-image.png` with the actual screenshots of your app.
-
----
 
 ## Getting Started
 
