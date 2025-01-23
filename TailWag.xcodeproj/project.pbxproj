@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		10AEF4E42CDD5BDB009FECF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10AEF4C52CDD5BD9009FECF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10AEF4CC2CDD5BD9009FECF0;
+			remoteInfo = TailWag;
+		};
+		10AEF4EE2CDD5BDB009FECF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10AEF4C52CDD5BD9009FECF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10AEF4CC2CDD5BD9009FECF0;
+			remoteInfo = TailWag;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10AEF4CD2CDD5BD9009FECF0 /* TailWag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TailWag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10AEF4E32CDD5BDB009FECF0 /* TailWagTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TailWagTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10AEF4ED2CDD5BDB009FECF0 /* TailWagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TailWagUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		10AEF4F52CDD5BDB009FECF0 /* Exceptions for "TailWag" folder in "TailWag" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 10AEF4CC2CDD5BD9009FECF0 /* TailWag */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		10AEF4CF2CDD5BD9009FECF0 /* TailWag */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				10AEF4F52CDD5BDB009FECF0 /* Exceptions for "TailWag" folder in "TailWag" target */,
+			);
+			path = TailWag;
+			sourceTree = "<group>";
+		};
+		10AEF4E62CDD5BDB009FECF0 /* TailWagTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TailWagTests;
+			sourceTree = "<group>";
+		};
+		10AEF4F02CDD5BDB009FECF0 /* TailWagUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TailWagUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10AEF4CA2CDD5BD9009FECF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10AEF4E02CDD5BDB009FECF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10AEF4EA2CDD5BDB009FECF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10AEF4C42CDD5BD9009FECF0 = {
+			isa = PBXGroup;
+			children = (
+				10AEF4CF2CDD5BD9009FECF0 /* TailWag */,
+				10AEF4E62CDD5BDB009FECF0 /* TailWagTests */,
+				10AEF4F02CDD5BDB009FECF0 /* TailWagUITests */,
+				10AEF4CE2CDD5BD9009FECF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10AEF4CE2CDD5BD9009FECF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10AEF4CD2CDD5BD9009FECF0 /* TailWag.app */,
+				10AEF4E32CDD5BDB009FECF0 /* TailWagTests.xctest */,
+				10AEF4ED2CDD5BDB009FECF0 /* TailWagUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10AEF4CC2CDD5BD9009FECF0 /* TailWag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10AEF4F62CDD5BDB009FECF0 /* Build configuration list for PBXNativeTarget "TailWag" */;
+			buildPhases = (
+				10AEF4C92CDD5BD9009FECF0 /* Sources */,
+				10AEF4CA2CDD5BD9009FECF0 /* Frameworks */,
+				10AEF4CB2CDD5BD9009FECF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				10AEF4CF2CDD5BD9009FECF0 /* TailWag */,
+			);
+			name = TailWag;
+			packageProductDependencies = (
+			);
+			productName = TailWag;
+			productReference = 10AEF4CD2CDD5BD9009FECF0 /* TailWag.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10AEF4E22CDD5BDB009FECF0 /* TailWagTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10AEF4FB2CDD5BDB009FECF0 /* Build configuration list for PBXNativeTarget "TailWagTests" */;
+			buildPhases = (
+				10AEF4DF2CDD5BDB009FECF0 /* Sources */,
+				10AEF4E02CDD5BDB009FECF0 /* Frameworks */,
+				10AEF4E12CDD5BDB009FECF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10AEF4E52CDD5BDB009FECF0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				10AEF4E62CDD5BDB009FECF0 /* TailWagTests */,
+			);
+			name = TailWagTests;
+			packageProductDependencies = (
+			);
+			productName = TailWagTests;
+			productReference = 10AEF4E32CDD5BDB009FECF0 /* TailWagTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		10AEF4EC2CDD5BDB009FECF0 /* TailWagUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10AEF4FE2CDD5BDB009FECF0 /* Build configuration list for PBXNativeTarget "TailWagUITests" */;
+			buildPhases = (
+				10AEF4E92CDD5BDB009FECF0 /* Sources */,
+				10AEF4EA2CDD5BDB009FECF0 /* Frameworks */,
+				10AEF4EB2CDD5BDB009FECF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10AEF4EF2CDD5BDB009FECF0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				10AEF4F02CDD5BDB009FECF0 /* TailWagUITests */,
+			);
+			name = TailWagUITests;
+			packageProductDependencies = (
+			);
+			productName = TailWagUITests;
+			productReference = 10AEF4ED2CDD5BDB009FECF0 /* TailWagUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10AEF4C52CDD5BD9009FECF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					10AEF4CC2CDD5BD9009FECF0 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					10AEF4E22CDD5BDB009FECF0 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 10AEF4CC2CDD5BD9009FECF0;
+					};
+					10AEF4EC2CDD5BDB009FECF0 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 10AEF4CC2CDD5BD9009FECF0;
+					};
+				};
+			};
+			buildConfigurationList = 10AEF4C82CDD5BD9009FECF0 /* Build configuration list for PBXProject "TailWag" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10AEF4C42CDD5BD9009FECF0;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 10AEF4CE2CDD5BD9009FECF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10AEF4CC2CDD5BD9009FECF0 /* TailWag */,
+				10AEF4E22CDD5BDB009FECF0 /* TailWagTests */,
+				10AEF4EC2CDD5BDB009FECF0 /* TailWagUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10AEF4CB2CDD5BD9009FECF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10AEF4E12CDD5BDB009FECF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10AEF4EB2CDD5BDB009FECF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10AEF4C92CDD5BD9009FECF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10AEF4DF2CDD5BDB009FECF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10AEF4E92CDD5BDB009FECF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10AEF4E52CDD5BDB009FECF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10AEF4CC2CDD5BD9009FECF0 /* TailWag */;
+			targetProxy = 10AEF4E42CDD5BDB009FECF0 /* PBXContainerItemProxy */;
+		};
+		10AEF4EF2CDD5BDB009FECF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10AEF4CC2CDD5BD9009FECF0 /* TailWag */;
+			targetProxy = 10AEF4EE2CDD5BDB009FECF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10AEF4F72CDD5BDB009FECF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TailWag/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.TailWag;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10AEF4F82CDD5BDB009FECF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TailWag/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.TailWag;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		10AEF4F92CDD5BDB009FECF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		10AEF4FA2CDD5BDB009FECF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10AEF4FC2CDD5BDB009FECF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.TailWagTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TailWag.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TailWag";
+			};
+			name = Debug;
+		};
+		10AEF4FD2CDD5BDB009FECF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.TailWagTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TailWag.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TailWag";
+			};
+			name = Release;
+		};
+		10AEF4FF2CDD5BDB009FECF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.TailWagUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TailWag;
+			};
+			name = Debug;
+		};
+		10AEF5002CDD5BDB009FECF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.TailWagUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TailWag;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10AEF4C82CDD5BD9009FECF0 /* Build configuration list for PBXProject "TailWag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10AEF4F92CDD5BDB009FECF0 /* Debug */,
+				10AEF4FA2CDD5BDB009FECF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10AEF4F62CDD5BDB009FECF0 /* Build configuration list for PBXNativeTarget "TailWag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10AEF4F72CDD5BDB009FECF0 /* Debug */,
+				10AEF4F82CDD5BDB009FECF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10AEF4FB2CDD5BDB009FECF0 /* Build configuration list for PBXNativeTarget "TailWagTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10AEF4FC2CDD5BDB009FECF0 /* Debug */,
+				10AEF4FD2CDD5BDB009FECF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10AEF4FE2CDD5BDB009FECF0 /* Build configuration list for PBXNativeTarget "TailWagUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10AEF4FF2CDD5BDB009FECF0 /* Debug */,
+				10AEF5002CDD5BDB009FECF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10AEF4C52CDD5BD9009FECF0 /* Project object */;
+}
